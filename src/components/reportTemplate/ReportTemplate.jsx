@@ -75,6 +75,75 @@ const ReportTemplate = () => {
 
             </table>
         </div>
+
+        <div className='table-container-3'>
+            <table className='table-3'>
+                <tr>
+                    <td> 
+                        <p>PAGO ORDINARIO HASTA</p> 
+                        <p>29/03/2023</p>
+                    </td>
+                    <td>
+                        <p>VALOR A PAGAR</p> 
+                        <p>$ 176,241.00 </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>PAGO EXTRAORDINARIO HASTA</p>
+                        <p>29/03/2023</p>
+                    </td>
+                    <td>
+                        <p>VALOR A PAGAR</p>
+                        <p>$ 176,241.00 </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+        <div className='table-container-4'>
+            <table className='table-4'>
+                <tr className='ht-no-border'>
+                    <td className='td-no-border'> 
+                        <p>CUENTA No. 1231321</p> 
+                    </td>
+
+                    <td className='td-no-border'>
+                        <p>REFERENCIA:</p> 
+                    </td>
+                </tr>
+                <tr className='ht-no-border'>
+                    <td className='td-no-border'>
+                        <p>NOMBRE: Santiago Acosta</p> 
+                    </td>
+                </tr>
+
+                <tr className='ht-no-border'>
+                    <td className='td-no-border'>
+                        <p>PROGRAMA: </p>
+                    </td>
+                </tr>
+
+                <tr className='ht-no-border'>
+                    <td className='td-no-border'>
+                        <p>PAGO ORDIANARIO HASTA:</p>
+                    </td>
+                    <td className='td-no-border'>
+                        <p>VALOR A PAGAR:</p>
+                    </td>
+                </tr>
+
+                <tr className='ht-no-border'>
+                    <td className='td-no-border'>
+                        <p>PAGO EXTRAORDINARIO HASTA:</p>
+                    </td>
+                    <td className='td-no-border'>
+                        <p>VALOR A PAGAR:</p>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
    </>
   )
 }

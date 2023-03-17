@@ -39,10 +39,40 @@ table {
     height: 200px !important;
 }
 
+.table-3 {
+    width: 50% !important;
+}
+
+.table-container-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+    gap: 4pc;
+}
+
+.table-4 {
+    width: 50% !important;
+}
+
+.table-container-4 {
+    margin-top: 4pc;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+    gap: 4pc;
+}
+
 th, td {
     border: 1px solid rgb(146 145 149); /* Añade un borde más claro a las celdas */
 }
 
+.ht-no-border, .td-no-border {
+    border: none !important;
+}
 
 th {
     padding: 10px;

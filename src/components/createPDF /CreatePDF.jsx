@@ -16,7 +16,7 @@ const CreatePDF = () => {
   return (
     <div className="create-pdf">
       <Pdf targetRef={ref} filename="code-example.pdf" scale={0.77} quality={0.9} options={options} style={7}>
-        {({ toPdf }) => <button onClick={toPdf} className="button-generate">Generate Pdf</button>}
+        {({ toPdf }) => <button onClick={toPdf} className="button-generate">Generate PDF</button>}
       </Pdf>
       <div ref={ref} className="coniner-invoice">
         <ReportTemplate />
