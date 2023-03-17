@@ -100,8 +100,15 @@ const ReportTemplate = () => {
                 </tr>
             </table>
         </div>
+
+
+        <div className='blue-box-container'>
+            <div className='blue-box'></div>
+            <p className='text-box'>TIMBRE DE CAJA</p>
+        </div>
         
         <div className='table-container-4'>
+        <img src="src/assets/Universidad_Central.png" alt="imagen de u central" width="300px"/>
             <table className='table-4'>
                 <tr className='ht-no-border'>
                     <td className='td-no-border'> 
@@ -141,7 +148,83 @@ const ReportTemplate = () => {
                         <p>VALOR A PAGAR:</p>
                     </td>
                 </tr>
+            </table>
+        </div>
 
+        <div className='main-head-container'>
+            <div className='head_container-table-5'>
+                <h4 className='head-text'>BANCOS DONDE PUEDE REALIZAR EL PAGO</h4>
+            </div>
+
+            <div className='head_container-table-5-sub'>
+                <h4 className='head-text'>RELACION DEL PAGO</h4>
+            </div>
+        </div>
+            
+
+        <div className='table-container-5'>
+
+            <table className='table-7'>
+                <tr>
+                    <th> BANCO </th>
+                    <th> NO. DE CUENTA </th>
+                </tr>
+
+                <tr className='content-table-5'>
+                    <td>
+                        <p></p>
+                        <p></p>
+                    </td>
+                    <td>
+                        <p></p>
+                        <p></p>
+                    </td>
+                </tr>
+            </table>
+
+            <table className='table-5'>
+                <tr>
+                    <th> CODIGO BANCO </th>
+                    <th> NO. DE CUENTA </th>
+                    <th> NO. DEL CHEQUE </th>
+                    <th> VALOR </th>
+                </tr>
+
+                <tr className='content-table-5'>
+                    <td>
+                        <p></p>
+                        <p></p>
+                    </td>
+                    <td>
+                        <p></p>
+                        <p></p>
+                    </td>
+                    <td>
+                        <p></p>
+                        <p></p>
+                    </td>
+                    <td>
+                        <p></p>
+                        <p></p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div className='table-container-6'>
+            <table class="table-6">
+                <tr className='ht-no-border'>
+                    <td class="celda td-no-border">SUMA DE CHEQUES</td>
+                    <td className='td-border-left'>$</td>
+                </tr>
+                <tr className='ht-no-border'>
+                    <td class="celda td-no-border">EFECTIVO</td>
+                    <td className='td-border-left'>$</td>
+                </tr>
+                <tr className='ht-no-border'>
+                    <td class="celda td-no-border">TOTAL</td>
+                    <td className='td-border-left'>$</td>
+                </tr>
             </table>
         </div>
    </>
