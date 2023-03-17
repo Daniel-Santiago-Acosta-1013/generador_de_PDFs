@@ -1,5 +1,6 @@
 import React from 'react'
 import './ReportTemplate.css'
+import BarCode from '../barCode/BarCode'
 
 const ReportTemplate = () => {
   return (
@@ -56,16 +57,13 @@ const ReportTemplate = () => {
 
                 <tr className='content-table-2'>
                     <td>
-                        <p></p>
-                        <p></p>
+                        <p>1</p>
                     </td>
                     <td>
-                        <p></p>
-                        <p></p>
+                        <p>PROGRAMA INGLES GENERAL - PARTICULARES</p>
                     </td>
                     <td>
-                        <p></p>
-                        <p></p>
+                        <p>$ 176,241.00</p>
                     </td>
                     <td>
                         <p></p>
@@ -116,7 +114,7 @@ const ReportTemplate = () => {
                     </td>
 
                     <td className='td-no-border'>
-                        <p>REFERENCIA:</p> 
+                        <p>REFERENCIA: 7285387</p> 
                     </td>
                 </tr>
                 <tr className='ht-no-border'>
@@ -127,25 +125,25 @@ const ReportTemplate = () => {
 
                 <tr className='ht-no-border'>
                     <td className='td-no-border'>
-                        <p>PROGRAMA: </p>
+                        <p>PROGRAMA: CURSOS POR MÓDULO</p>
                     </td>
                 </tr>
 
                 <tr className='ht-no-border'>
                     <td className='td-no-border'>
-                        <p>PAGO ORDIANARIO HASTA:</p>
+                        <p>PAGO ORDIANARIO HASTA: 29/03/2023</p>
                     </td>
                     <td className='td-no-border'>
-                        <p>VALOR A PAGAR:</p>
+                        <p>VALOR A PAGAR: $ 176,241.00</p>
                     </td>
                 </tr>
 
                 <tr className='ht-no-border'>
                     <td className='td-no-border'>
-                        <p>PAGO EXTRAORDINARIO HASTA:</p>
+                        <p>PAGO EXTRAORDINARIO HASTA: 29/03/2023</p>
                     </td>
                     <td className='td-no-border'>
-                        <p>VALOR A PAGAR:</p>
+                        <p>VALOR A PAGAR: $ 176,241.00</p>
                     </td>
                 </tr>
             </table>
@@ -172,11 +170,11 @@ const ReportTemplate = () => {
 
                 <tr className='content-table-5'>
                     <td>
-                        <p></p>
+                        <p>DAVIVIENDA</p>
                         <p></p>
                     </td>
                     <td>
-                        <p></p>
+                        <p>CONVENIO 1032903</p>
                         <p></p>
                     </td>
                 </tr>
@@ -226,6 +224,14 @@ const ReportTemplate = () => {
                     <td className='td-border-left'>$</td>
                 </tr>
             </table>
+        </div>
+
+        <div className='bar-code'>
+            <BarCode/>
+            <div className='blue-box-container'>
+                <div className='blue-box'></div>
+                <p className='text-box'>TIMBRE DE CAJA</p>
+            </div>
         </div>
    </>
   )

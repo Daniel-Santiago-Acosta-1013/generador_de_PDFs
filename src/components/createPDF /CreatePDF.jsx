@@ -10,7 +10,7 @@ const CreatePDF = () => {
   const options = {
     orientation: 'portrait', // orientación vertical
     unit: 'in', // unidad de pulgadas
-    format: [10,14] // tamaño de 8.5x11 pulgadas
+    format: [10,16] // tamaño de 8.5x11 pulgadas
   };
 
   return (
